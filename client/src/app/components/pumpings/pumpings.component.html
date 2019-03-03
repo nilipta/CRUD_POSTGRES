@@ -1,0 +1,201 @@
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-8 offset-md-2">
+      <table class="table table-bordered">
+        <tr>
+          <th>Primary Section</th>
+          <th>Secondary Section</th>
+        </tr>
+        <tr>
+          <td>
+            <div class="form-group">
+              <div class="row">
+                <div class="col-md-1"> <label for="">Slave ID </label></div>
+                <div class="col-md-11"> <input type="number" name=""
+                    class="form-control" id="" [(ngModel)]= primaryObj.slave_id>
+                  <!-- <select name="" id="" class="form-control">
+                <option value="">Value 1</option>
+                <option value="">Value 2</option>
+              </select> -->
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-1"> <label for="">default Freq </label></div>
+                <div class="col-md-11"> <input type="number" name=""
+                    class="form-control" id="" [(ngModel)]=
+                    primaryObj.default_Freq>
+                  <!-- <select name="" id="" class="form-control">
+                <option value="">Value 1</option>
+                <option value="">Value 2</option>
+              </select> -->
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-1"> <label for="">Ramp up </label></div>
+                <div class="col-md-11"> <input type="number" name=""
+                    class="form-control" id="" [(ngModel)]= primaryObj.Ramp_up>
+                  <!-- <select name="" id="" class="form-control">
+                <option value="">Value 1</option>
+                <option value="">Value 2</option>
+              </select> -->
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-1"> <label for="">Ramp down </label></div>
+                <div class="col-md-11"> <input type="number" name=""
+                    class="form-control" id="" [(ngModel)]=
+                    primaryObj.Ramp_down>
+                  <!-- <select name="" id="" class="form-control">
+                <option value="">Value 1</option>
+                <option value="">Value 2</option>
+              </select> -->
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-1"> <label for=""> Fuction code </label></div>
+                <div class="col-md-11"> <input type="text" name=""
+                    class="form-control" id="" [(ngModel)]=
+                    primaryObj.Function_code>
+                  <!-- <select name="" id="" class="form-control">
+                <option value="">Value 1</option>
+                <option value="">Value 2</option>
+              </select> -->
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-1"> <label for="">Address </label></div>
+                <div class="col-md-11"> <input type="text" name=""
+                    class="form-control" id="" [(ngModel)]= primaryObj.Address>
+                  <!-- <select name="" id="" class="form-control">
+                <option value="">Value 1</option>
+                <option value="">Value 2</option>
+              </select> -->
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-1"> <label for="">Running Frequency </label></div>
+                <div class="col-md-11"> <input type="number" name=""
+                    class="form-control" id="" [(ngModel)]=
+                    primaryObj.Running_Frequency>
+                  <!-- <select name="" id="" class="form-control">
+                <option value="">Value 1</option>
+                <option value="">Value 2</option>
+              </select> -->
+                </div>
+              </div>
+
+
+
+
+
+
+            </div>
+
+            <button (click)="PrimarySubmit()"> Submit</button>
+            &nbsp; &nbsp; &nbsp; &nbsp;
+          </td>
+
+
+
+
+          <!-- Secondary start-->
+
+
+
+
+
+
+
+
+
+          <td>
+            <div class="form-group">
+              <div class="row">
+                <div class="col-md-1"> <label for="">Slave ID </label></div>
+                <div class="col-md-11"> <input type="number" name=""
+                    class="form-control" id="" [(ngModel)]=
+                    secondaryObj.slave_id>
+                  <!-- <select name="" id="" class="form-control">
+                    <option value="">Value 1</option>
+                    <option value="">Value 2</option>
+                  </select> -->
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-1"> <label for="">default Freq </label></div>
+                <div class="col-md-11"> <input type="number" name=""
+                    class="form-control" id="" [(ngModel)]=
+                    secondaryObj.default_Freq>
+                  <!-- <select name="" id="" class="form-control">
+                    <option value="">Value 1</option>
+                    <option value="">Value 2</option>
+                  </select> -->
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-1"> <label for="">Ramp up </label></div>
+                <div class="col-md-11"> <input type="number" name=""
+                    class="form-control" id="" [(ngModel)]=
+                    secondaryObj.Ramp_up>
+                  <!-- <select name="" id="" class="form-control">
+                    <option value="">Value 1</option>
+                    <option value="">Value 2</option>
+                  </select> -->
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-1"> <label for="">Ramp down </label></div>
+                <div class="col-md-11"> <input type="number" name=""
+                    class="form-control" id="" [(ngModel)]=
+                    secondaryObj.Ramp_down>
+                  <!-- <select name="" id="" class="form-control">
+                    <option value="">Value 1</option>
+                    <option value="">Value 2</option>
+                  </select> -->
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-1"> <label for=""> Fuction code </label></div>
+                <div class="col-md-11"> <input type="text" name=""
+                    class="form-control" id="" [(ngModel)]=
+                    secondaryObj.Function_code>
+                  <!-- <select name="" id="" class="form-control">
+                    <option value="">Value 1</option>
+                    <option value="">Value 2</option>
+                  </select> -->
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-1"> <label for="">Address </label></div>
+                <div class="col-md-11"> <input type="text" name=""
+                    class="form-control" id="" [(ngModel)]=
+                    secondaryObj.Address>
+                  <!-- <select name="" id="" class="form-control">
+                    <option value="">Value 1</option>
+                    <option value="">Value 2</option>
+                  </select> -->
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-1"> <label for="">Running Frequency </label></div>
+                <div class="col-md-11"> <input type="number" name=""
+                    class="form-control" id="" [(ngModel)]=
+                    secondaryObj.Running_Frequency>
+                  <!-- <select name="" id="" class="form-control">
+                    <option value="">Value 1</option>
+                    <option value="">Value 2</option>
+                  </select> -->
+                </div>
+              </div>
+            </div>
+            <button (click)="SecondarySubmit()"> Submit</button>
+          </td>
+        </tr>
+
+
+      </table>
+
+    </div>
+  </div>
+</div>
